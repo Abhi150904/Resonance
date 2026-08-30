@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 
 import {
-    TEXT_MAX_LENGTH
+    TEXT_MAX_LENGTH, COST_PER_UNIT
 } from "@/features/text-to-speech/data/constants";
 
 export function TextInputPanel() {
@@ -48,7 +48,7 @@ export function TextInputPanel() {
                                 ) : (
                                     <>
                                         <span className="tabular-nums">
-                                            ${(text.length * 0.0003).toFixed(4)}
+                                            ${(text.length * COST_PER_UNIT).toFixed(4)}
                                         </span>{" "}
                                         estimated
                                     </>
