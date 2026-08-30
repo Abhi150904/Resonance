@@ -129,7 +129,7 @@ export function DashboardSidebar() {
         },
         {
             title: "Help and support",
-            url: "mailto:sinhaabhinav016@gmail.com",
+            url: "mailto:sinhaabhinav015@gmail.com",
             icon: Headphones,
         },
     ];
