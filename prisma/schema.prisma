@@ -24,7 +24,7 @@ enum VoiceCategory {
   GENERAL
   NARRATIVE
   CHARACTERS
-  MEDIATION
+  MEDITATION
   MOTIVATIONAL
   PODCAST
   ADVERTISING
@@ -40,7 +40,7 @@ model Voice {
   category    VoiceCategory @default(GENERAL)
   language    String        @default("en-US")
   variant     VoiceVariant
-  r2ObjectKey String?
+  storageObjectKey String? @map("r2ObjectKey")
 
   generations Generation[]
 
@@ -58,7 +58,7 @@ model Generation {
   voice             Voice?   @relation(fields: [voiceId], references: [id], onDelete: SetNull)
   voiceName         String
   text              String
-  r2ObjectKey       String?
+  storageObjectKey String? @map("r2ObjectKey")
   temperature       Float
   topP              Float
   topK              Int
