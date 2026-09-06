@@ -8,6 +8,8 @@ export const env = createEnv({
         AZURE_STORAGE_ACCOUNT_NAME: z.string().min(1),
         AZURE_STORAGE_ACCOUNT_KEY: z.string().min(1),
         AZURE_STORAGE_CONTAINER_NAME: z.string().min(1),
+        CHATTERBOX_API_URL: z.url(),
+        CHATTERBOX_API_KEY: z.string().min(1),
     },
     experimental__runtimeEnv: {},
     skipValidation: !!process.env.SKIP_ENV_VALIDATION
