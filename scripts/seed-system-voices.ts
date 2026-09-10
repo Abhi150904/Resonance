@@ -56,72 +56,72 @@ const SYSTEM_VOICE_METADATA = {
   Abigail: {
     description: "Clear, approachable voice with a conversational tone.",
     category: "CONVERSATIONAL",
-    language: "en-US",
+    language: "en-GB",
   },
   Anaya: {
     description: "Expressive, composed voice for general assistant responses.",
     category: "GENERAL",
-    language: "en-US",
+    language: "en-IN",
   },
   Andy: {
     description: "Friendly voice suited for support and product walkthroughs.",
     category: "CUSTOMER_SERVICE",
-    language: "en-US",
+    language: "en-CA",
   },
   Archer: {
     description: "Crisp, characterful voice for story-driven content.",
     category: "CHARACTERS",
-    language: "en-US",
+    language: "en-AU",
   },
   Brian: {
     description: "Calm, direct voice for instructional narration.",
     category: "VOICEOVER",
-    language: "en-US",
+    language: "en-IE",
   },
   Chloe: {
     description: "Bright, natural voice for conversational experiences.",
     category: "CONVERSATIONAL",
-    language: "en-US",
+    language: "fr-CA",
   },
   Dylan: {
     description: "Grounded voice with a relaxed podcast feel.",
     category: "PODCAST",
-    language: "en-US",
+    language: "en-NZ",
   },
   Emmanuel: {
     description: "Polished voice suited for corporate and professional content.",
     category: "CORPORATE",
-    language: "en-US",
+    language: "en-NG",
   },
   Ethan: {
     description: "Energetic voice for promotional and short-form copy.",
     category: "ADVERTISING",
-    language: "en-US",
+    language: "en-ZA",
   },
   Evelyn: {
     description: "Gentle, balanced voice for stories and longer narration.",
     category: "NARRATIVE",
-    language: "en-US",
+    language: "en-PH",
   },
   Gavin: {
     description: "Confident, even voice for general narration.",
     category: "GENERAL",
-    language: "en-US",
+    language: "en-SG",
   },
   Gordon: {
     description: "Distinct voice for characters and dramatic reads.",
     category: "CHARACTERS",
-    language: "en-US",
+    language: "en-JM",
   },
   Ivan: {
     description: "Measured voice for audiobook and long-form listening.",
     category: "AUDIOBOOK",
-    language: "en-US",
+    language: "en-KE",
   },
   Laura: {
     description: "Soft, focused voice for mindfulness and calm experiences.",
     category: "MEDITATION",
-    language: "en-US",
+    language: "es-ES",
   },
   Lucy: {
     description: "Natural voice suited for assistants and casual narration.",
@@ -131,22 +131,22 @@ const SYSTEM_VOICE_METADATA = {
   Madison: {
     description: "Smooth voice for voiceover and narrated content.",
     category: "VOICEOVER",
-    language: "en-US",
+    language: "en-GB",
   },
   Marisol: {
     description: "Warm multilingual voice for friendly narration.",
     category: "NARRATIVE",
-    language: "en-US",
+    language: "es-MX",
   },
   Meera: {
     description: "Clear voice suited for guided, motivational content.",
     category: "MOTIVATIONAL",
-    language: "en-US",
+    language: "hi-IN",
   },
   Walter: {
     description: "Authoritative voice for corporate and explainer content.",
     category: "CORPORATE",
-    language: "en-US",
+    language: "en-DE",
   },
 } satisfies Record<SystemVoiceName, VoiceMetadata>;
 
